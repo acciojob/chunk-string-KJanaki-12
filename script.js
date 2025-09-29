@@ -6,15 +6,11 @@ function stringChop(str, size) {
 		ans.push(str.slice(i, i+size));
 	}
 	if(ans.length === 0){
-		return null;
+		return [];
 	}else{
 		return ans;
 	}
-	
 }
-
-
-
 // Do not change the code below
 const str = prompt("Enter String.");
 const size = prompt("Enter Chunk Size.");
