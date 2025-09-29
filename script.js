@@ -4,9 +4,8 @@ function stringChop(str, size) {
 		for(let i=0;i<str.length;i=i+size){
 			ans.push(str.slice(i, i+size));
 		}
-	let result = ans.push(...);
-	return result;
-		
+		return ans;
+	
 }
 
 // Do not change the code below
